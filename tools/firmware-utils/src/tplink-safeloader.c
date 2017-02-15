@@ -429,12 +429,12 @@ static struct device_info boards[] = {
 
 	/** Firmware layout for the TL-WA850RE v2 */
 	{
-		.id     = "TLWA850REV2",
+		.id     = "TLWA854REV2",
 		.vendor = "",
 		.support_list =
 			"SupportList:\n"
+			"{product_name:TL-WA854RE,product_ver:2.0.0,special_id:00000000}\n"
 			"{product_name:TL-WA850RE,product_ver:2.0.0,special_id:55530000}\n"
-			"{product_name:TL-WA850RE,product_ver:2.0.0,special_id:00000000}\n"
 			"{product_name:TL-WA850RE,product_ver:2.0.0,special_id:55534100}\n"
 			"{product_name:TL-WA850RE,product_ver:2.0.0,special_id:45550000}\n"
 			"{product_name:TL-WA850RE,product_ver:2.0.0,special_id:4B520000}\n"
