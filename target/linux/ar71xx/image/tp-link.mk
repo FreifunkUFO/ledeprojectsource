@@ -987,8 +987,8 @@ define Device/tl-wa850re-v2
     DEVICE_PACKAGES := rssileds
     BOARDNAME := TL-WA850RE-V2
     DEVICE_PROFILE := TLWA850
-    TPLINK_BOARD_NAME := TLWA850REV2
-    TPLINK_HWID := 0x08500002
+    TPLINK_BOARD_NAME := TLWA854REV2
+    TPLINK_HWID := 0x08540002
     KERNEL := kernel-bin | patch-cmdline | lzma | mktplinkfw-kernel
     IMAGE/sysupgrade.bin := append-rootfs | tplink-safeloader sysupgrade
     IMAGE/factory.bin := append-rootfs | tplink-safeloader factory
